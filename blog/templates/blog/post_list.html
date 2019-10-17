@@ -6,12 +6,18 @@
         <div>
             <h1><a href="/">Harsh's Blog</a></h1>
         </div>
+        {% for post in posts %}
 
         <div>
-            <p>published: 10/15/2019 , 9:25</p>
-            <h2><a href="">My first post</a></h2>
-            <p>Hi my name is harsh and i currently study at NIT Warangal. This is my first post</p>
+          <p>published:{{post.published_date}}</p>
+          <h2><a href=""> {{post.title}}</a></h2>
+          <p>{{post.text|linebreaksbr }}</p>
+
+       
+       
+           
         </div>
+        {% endfor %}
 
     </body>
 </html>
