@@ -1,6 +1,7 @@
 h1 a, h2 a{
     color:#C25100;
     font-family: "Lobster";
+    
 }
 body {
     padding-left: 15px;
@@ -40,8 +41,9 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
-    margin-right: 20px;
+    font-size: 40px;
+    margin-right:20px;
+    margin-top:-45px;
 }
 
 .post {
